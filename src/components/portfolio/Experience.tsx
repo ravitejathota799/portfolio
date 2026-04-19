@@ -90,38 +90,28 @@ const jobs = [
   {
     role: "Test Automation Engineer",
     company: "Accenture",
-    period: "2024 — Present",
+    period: "March 2024 — Present",
     logoUrl: "https://cdn.brandfetch.io/idQMz2tvbD/theme/dark/logo.svg?c=1bxid64Mup7aczewSAYMX&t=1773006617821",
     logoSvg: null,
     points: [
-      "Architected a unified UI + API automation framework using Playwright + REST Assured, reducing regression cycle from 3 days to 4 hours.",
-      "Integrated test suites with Jenkins + Docker for parallel cross-browser execution across 12 environments.",
-      "Mentored 5 QA engineers on test design patterns and CI/CD best practices.",
+      "Created comprehensive test cases for National Pricing System Application, ensuring coverage of both core features and edge cases. Executed functional and automated testing to validate Business requirements and workflows.",
+      "Independently built and supported robust end-to-end automation frameworks, executing test suites across Dev,UAT, and PROD environments using Selenium WebDriver,Cucumber BDD, and Java(JUNIT/TestNG).",
+      "Managed UI and API regression cycles, consistently achieving ~85% pass rate in initial executions, with the remaining ~15% analyzed, debugged, and resolved locally prior to production and post production releases.",
+      "Leveraged AI-driven tools such as Github Copilot to enhance test case creation, improve efficiency, and optimize overall testing processes.",
     ],
   },
   {
-    role: "SDET",
-    company: "PayCore Technologies",
-    period: "2022 — 2024",
-    logoUrl: null,
-    logoSvg: `<svg viewBox="0 0 100 24" width="100" height="24"><text x="0" y="17" font-family="Arial" font-size="13" font-weight="bold" fill="#00A86B">PayCore</text></svg>`,
+    role: "Programmer Analyst - Test Automation",
+    company: "Cognizant",
+    period: "September 2023 — March 2024",
+    logoUrl: "https://cdn.brandfetch.io/idzF9a2Y93/theme/light/logo.svg?c=1bxid64Mup7aczewSAYMX&t=1668075035358",
+    logoSvg: null,
     points: [
       "Built BDD framework (Cucumber + Selenium) covering 1.2k+ scenarios for a customer-facing payments product.",
       "Implemented contract testing using Pact — caught 30+ breaking changes before production.",
       "Owned non-functional testing: load (JMeter), security (OWASP ZAP), accessibility (axe-core).",
     ],
-  },
-  {
-    role: "QA Automation Engineer",
-    company: "Insight Labs",
-    period: "2021 — 2022",
-    logoUrl: null,
-    logoSvg: `<svg viewBox="0 0 92 24" width="92" height="24"><text x="0" y="17" font-family="Arial" font-size="13" font-weight="bold" fill="#7C3AED">Insight Labs</text></svg>`,
-    points: [
-      "Migrated legacy manual regression suite to Selenium + TestNG, achieving 70% automation coverage.",
-      "Set up Allure reporting integrated with Slack notifications for nightly runs.",
-    ],
-  },
+  }
 ];
 
 const CompanyLogo = ({

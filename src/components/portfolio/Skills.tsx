@@ -7,7 +7,7 @@ const skillGroups = [
   },
   {
     category: "API & Performance",
-    skills: ["REST Assured", "Postman", "JMeter", "K6", "Newman", "WireMock"],
+    skills: ["REST Assured", "Postman"],
   },
   {
     category: "Languages & Tools",
@@ -19,7 +19,7 @@ const skillGroups = [
   },
   {
     category: "Test Management",
-    skills: ["JIRA", "Zephyr", "TestRail", "qTest", "Allure", "ExtentReports"],
+    skills: ["JIRA", "qTest", "Allure", "ExtentReports"],
   },
   {
     category: "Methodologies",

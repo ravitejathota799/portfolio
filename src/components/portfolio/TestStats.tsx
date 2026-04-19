@@ -6,6 +6,7 @@ const stats = [
   { value: 98, suffix: "%", label: "Defect Detection Rate" },
   { value: 15, suffix: "+", label: "CI/CD Pipelines" },
   { value: 80, suffix: "%", label: "Regression Time Reduced" },
+  { value: 85, suffix: "%", label: "Regression Pass Rate in Initial Executions" },
 ];
 
 const useCount = (target: number, start: boolean, duration = 1500) => {

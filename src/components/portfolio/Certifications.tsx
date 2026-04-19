@@ -80,6 +80,13 @@ const certs = [
     logoUrl: "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/neo4j.svg",
     logoSvg: null,
   },
+  {
+    name: "Agile Methodology Virtual Experience",
+    issuer: "Cognizant",
+    year: "2022",
+    logoUrl: "https://cdn.brandfetch.io/idihW5RI3A/w/400/h/400/theme/dark/icon.jpeg?c=1bxid64Mup7aczewSAYMX&t=1771338357488",
+    logoSvg: null,
+  },
 ];
 
 const CertLogo = ({
