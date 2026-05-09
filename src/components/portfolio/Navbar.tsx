@@ -55,7 +55,7 @@ const Navbar = () => {
           href="#contact"
           className="hidden lg:inline-flex px-5 py-2 rounded-full bg-gradient-primary text-primary-foreground text-sm font-semibold shadow-glow hover:scale-105 transition-transform"
         >
-          Hire Me
+           ▶ run("hire")
         </a>
 
         <button

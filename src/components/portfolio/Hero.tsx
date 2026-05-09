@@ -45,14 +45,14 @@ const Hero = () => {
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass">
             <span className="w-2 h-2 rounded-full bg-accent animate-glow-pulse" />
             <span className="text-xs font-mono text-muted-foreground">
-              Available for opportunities
+              @Available · status: PASSED
             </span>
           </div>
 
           <div className="space-y-3">
             <p className="font-mono text-primary text-sm md:text-base">
-              &gt; console.log("Hello World!")
-            </p>
+  &gt; &gt; <span>{'@BeforeSuite public void init() { assert("World"); }'}</span>
+</p>
             <h1 className="text-5xl md:text-7xl font-bold leading-tight tracking-tight">
               Hi, I'm <span className="text-gradient">Thota Ravi Teja</span>
             </h1>
